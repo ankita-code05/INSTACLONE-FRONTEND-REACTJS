@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 20px;
+    border-bottom: 1px solid #006238;
+}
+
+.header .logo img{
+    width: 80px;
+}
+.header .text{
+    font-size: 50px;
+    font-weight: bold;
+    color: #006238;
+}
+.header .camera .img{
+    width: 80px;
+}
+
+/* .header .camera img{
+    height: 200px;
+    width: 200px;
+} */
+
+.Card-container{
+    border: 1px solid;
+    width: 400px;
+    height: auto;
+    box-shadow: 1px solid grey;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    
+}
+form {
+    margin: 8px;
+
+}
+input{
+    margin: 5px;
+    padding: 5px;
+}

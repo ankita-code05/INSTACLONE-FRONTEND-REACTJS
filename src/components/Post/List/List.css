@@ -1,0 +1,44 @@
+.post-list-view .row .card-container{
+    width: 400px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 10px;
+    
+}
+
+.post-list-view .row .card-container .head{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px 0px 20px;
+}
+.post-list-view .row .card-container .place{
+    margin: 20px;
+}
+.post-list-view .row .card-container .head img{
+    width: 50px;
+    height: auto;
+}
+.post-list-view .row .card-container .image img{
+    width: 400px;
+    height: 200px;
+}
+.post-list-view .row .card-container .below-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.post-list-view .row .card-container .below-img .left img{
+    width: 30px;
+    margin: 5px;
+   
+}
+.post-list-view .row .card-container  .likes{
+    margin: 20px;
+}
+.post-list-view .row .card-container .text{
+    margin: 20px;
+}

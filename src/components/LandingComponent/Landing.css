@@ -1,6 +1,10 @@
 .home-content{
     display: flex;
     margin: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-content .Landing-img img{
@@ -15,7 +19,7 @@
 
 }
 
-button{
+button .enter{
     border: 3px solid #006238;
     border-radius: 13px;
     color: #006238;
