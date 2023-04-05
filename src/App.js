@@ -1,13 +1,16 @@
 
 import './App.css';
-import AppRouter from './Routers/Approuter';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PostContext from './contexts/PostContext'
+import Approuter from './Routers/Approuter';
 
 function App() {
   return (
-    <div className="App-container">
-      {/* hello world */}
-      <AppRouter/>
-    </div>
+    <PostContext>
+      <div className="App-container">
+        <Approuter />
+      </div>
+    </PostContext>
   );
 }
 
