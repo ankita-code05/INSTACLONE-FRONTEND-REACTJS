@@ -39,7 +39,7 @@ export default function AllPost() {
                                             </div>
                                         </Card.Header>
                                         <Card.Body className="card-body">
-                                            <img src={`http://localhost:4000/${post.image}`} alt="" />
+                                            <img src={`https://instaclone-nodejs-ankita.onrender.com/${post.image}`} alt="" />
                                         </Card.Body>
                                         <Card.Footer className="card-footer">
                                             <div className="wrapper">
