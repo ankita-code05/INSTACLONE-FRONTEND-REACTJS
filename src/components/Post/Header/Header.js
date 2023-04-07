@@ -15,7 +15,7 @@ export default function Header() {
                 <Container>
                     <Navbar.Brand href="#home">
                         <img src={Logo} alt="Logo" />
-                        <span >Insta Clone</span>
+                        <span>Insta Clone</span>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">

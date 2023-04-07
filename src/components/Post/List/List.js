@@ -25,21 +25,21 @@ export default function AllPost() {
                 {posts.length === 0 ? <h3>No post available...</h3> :
                     posts.map(post => {
 
-                        return <>
-                            <div className="row m-3" key={post.id}>
+                        return <div key={post.id}>
+                            <div className="row m-3" >
                                 <div className="col-12">
                                     <Card className="post-card">
                                         <Card.Header className="card-header">
-                                            <div col-5>
+                                            <div>
                                                 <h4>{post.name}</h4>
                                                 <label>{post.location}</label>
                                             </div>
-                                            <div col-5>
+                                            <div>
                                                 <span className='dot'>&#9679;&#9679;&#9679;</span>
                                             </div>
                                         </Card.Header>
                                         <Card.Body className="card-body">
-                                            <img src={`https://node-insta-clone-10x.onrender.com/${post.image}`} alt="" />
+                                            <img src={`http://localhost:4000/${post.image}`} alt="" />
                                         </Card.Body>
                                         <Card.Footer className="card-footer">
                                             <div className="wrapper">
@@ -52,7 +52,7 @@ export default function AllPost() {
                                                     <span className='date'>{post.date}</span>
                                                 </div>
                                             </div>
-                                            <div col-12 d-block>
+                                            <div>
                                                 <h5> {post.description}</h5>
                                             </div>
                                         </Card.Footer>
@@ -62,7 +62,7 @@ export default function AllPost() {
                                 </div>
                             </div>
 
-                        </>
+                        </div>
                     })}
 
             </div>

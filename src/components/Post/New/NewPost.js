@@ -25,7 +25,7 @@ export default function NewPost() {
   })
 
   function captureForm(event) {
-    debugger
+    // debugger
     event.preventDefault();
     const formValues = new FormData(event.target);
     formValues.append("date", new Date().toDateString());
